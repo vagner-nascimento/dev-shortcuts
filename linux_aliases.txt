@@ -1,0 +1,44 @@
+#git
+alias gtb='git branch'
+alias gtc='git checkout'
+alias gtpl='git pull'
+alias gtps='git push'
+alias gts='git status'
+alias gta='git add'
+alias gtcm='git commit -m'
+alias gtf='git fetch'
+alias gtd='git diff'
+alias gtl='git log'
+alias gtcl='git clone'
+alias gtds='git branch -D $(git branch | grep story/)'
+
+#npm
+alias npc='npm run coverage'
+alias npcd='npm run coverage:details'
+alias npr='npm run dev'
+alias npl='npm run lint'
+alias npt='npm run test'
+alias npi='npm install'
+
+#Compose
+alias cof='docker-compose -f'
+alias comp='docker-compose'
+
+#Docker
+alias dc='docker'
+alias dcps='docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"'
+alias dcp='docker container prune -f'
+alias dcst='docker container stop'
+alias dcini='docker container start'
+alias dcvl='docker volume ls'
+alias dcvp='docker volume prune -f'
+alias dcnl='docker network ls'
+alias dcnp='docker network prune -f'
+alias dcpa='docker container prune -f && docker volume prune -f && docker network prune -f'
+alias dcl='docker logs'
+alias dcil='docker images'
+alias dcpi='docker rmi $(docker images | grep "^<none>" | awk "{print $3}")'
+alias dcpai='docker container prune -f && docker volume prune -f && docker network prune -f && docker rmi $(docker images | grep "^<none>" | awk "{print $3}")'
+
+#Golang
+alias gora='go run *.go'
