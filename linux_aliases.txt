@@ -29,7 +29,9 @@ alias comp='docker-compose'
 
 #Docker
 alias dc='docker'
-alias dcps='docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"'
+alias dcpsf='docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"'
+alias dcps='docker ps'
+alias dcpsa='docker ps -a'
 alias dcp='docker container prune -f'
 alias dcst='docker container stop'
 alias dcini='docker container start'
@@ -45,3 +47,8 @@ alias dcpai='docker container prune -f && docker volume prune -f && docker netwo
 
 #Golang
 alias gora='go run *.go'
+
+#Kubernetes
+alias k='kubectl'
+alias kaf='k apply -f'
+
