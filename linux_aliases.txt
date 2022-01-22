@@ -56,4 +56,5 @@ alias kgp='k get pods'
 alias kgd='k get deployment'
 alias kgr='k get replicaset'
 alias kga='k get all'
-
+alias kgn='k get nodes'
+alias kdf='k delete -f'
