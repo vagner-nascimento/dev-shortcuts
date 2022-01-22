@@ -44,6 +44,7 @@ alias dcl='docker logs'
 alias dcil='docker images'
 alias dcpi='docker rmi $(docker images | grep "^<none>" | awk "{print $3}")'
 alias dcpai='docker container prune -f && docker volume prune -f && docker network prune -f && docker rmi $(docker images | grep "^<none>" | awk "{print $3}")'
+alias dcirm='dc image rm'
 
 #Golang
 alias gora='go run *.go'
