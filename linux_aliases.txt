@@ -51,4 +51,9 @@ alias gora='go run *.go'
 #Kubernetes
 alias k='kubectl'
 alias kaf='k apply -f'
+alias kpf='k port-forward'
+alias kgp='k get pods'
+alias kgd='k get deployment'
+alias kgr='k get replicaset'
+alias kga='k get all'
 
