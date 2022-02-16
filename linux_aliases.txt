@@ -67,4 +67,5 @@ alias tffm='tf fmt'
 alias tfpl='tf plan'
 alias tfap='tf apply'
 alias tfin='tf init'
-
+alias tfde='tf destroy'
+alias tfva='tf validate'
