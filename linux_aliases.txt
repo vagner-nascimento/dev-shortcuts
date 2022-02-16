@@ -60,3 +60,11 @@ alias kgr='k get replicaset'
 alias kga='k get all'
 alias kgn='k get nodes'
 alias kdf='k delete -f'
+
+#Terraform
+alias tf='terraform'
+alias tffm='tf fmt'
+alias tfpl='tf plan'
+alias tfap='tf apply'
+alias tfin='tf init'
+
