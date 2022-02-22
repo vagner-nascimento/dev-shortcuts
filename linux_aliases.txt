@@ -60,6 +60,9 @@ alias kgr='k get replicaset'
 alias kga='k get all'
 alias kgn='k get nodes'
 alias kdf='k delete -f'
+alias wka='watch kubectl get all'
+alias kl='k logs'
+alias klf='k logs -f'
 
 #Terraform
 alias tf='terraform'
